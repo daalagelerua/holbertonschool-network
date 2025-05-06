@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Script qui écoute sur le port 98 sur localhost
+
+# Utilisation de netcat (nc) pour écouter sur le port 98
+# -l : mode écoute
+# -p : spécifier le port
+nc -l -p 98
